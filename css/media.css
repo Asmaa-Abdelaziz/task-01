@@ -1,0 +1,62 @@
+@media (max-width: 1024px) {
+  nav .container {
+    padding: 1rem 0;
+  }
+  nav ul {
+    padding-left: 0;
+  }
+  .hero {
+    height: fit-content;
+  }
+  .about .container {
+    display: block;
+  }
+  .about .left-content {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .about .right-content {
+    text-align: center;
+  }
+  .solar-piece {
+    left: 0px;
+  }
+  .kits-cards,
+  .our-values {
+    justify-content: center;
+  }
+  .kits-card {
+    width: calc(90%);
+    margin-top: 2rem;
+  }
+  .energy-innovators .container {
+    justify-content: space-between;
+  }
+  .about-innovators {
+    width: 100%;
+  }
+  .energy-card,
+  .values-card {
+    width: 100%;
+  }
+}
+@media (max-width: 815px) {
+  .what-header,
+  .opinions {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1300px) {
+  .energy-innovators .container {
+    justify-content: space-between;
+  }
+  .about-innovators {
+    width: calc(90% / 2);
+  }
+  .energy-card {
+    width: calc(90% / 2);
+    height: fit-content;
+    margin-right: 0;
+  }
+}
